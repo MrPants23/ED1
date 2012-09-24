@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GDMaterial name="GUITest">
+  <Diffuse_Map>Hud.png</Diffuse_Map>
+  <Diffuse_Map_Path>C:\Users\Chelsey\Desktop\EDLUAWrappers\Hud.png</Diffuse_Map_Path>
+</GDMaterial>

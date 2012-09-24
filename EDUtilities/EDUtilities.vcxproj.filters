@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{28d87fa1-ea26-4891-b210-b7d75bfb81ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureFileLoaders">
+      <UniqueIdentifier>{2ee49292-5ffa-40b7-8d04-aaced0c2262f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentSerialization">
+      <UniqueIdentifier>{b5ba25c0-dc0e-493a-a3eb-92fb70385b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrintConsole">
+      <UniqueIdentifier>{935c2c7a-8ab8-4a8b-86fe-12311d4127a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="float3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="float4x4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="BMPFile.h">
+      <Filter>TextureFileLoaders</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalOutput.h" />
+    <ClInclude Include="GDTextureObject.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+    <ClInclude Include="GDMesh.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+    <ClInclude Include="GDMeshAppearance.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+    <ClInclude Include="GDMeshAttribute.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+    <ClInclude Include="GDModel.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="ContentManager.h" />
+    <ClInclude Include="ContentManager.hpp" />
+    <ClInclude Include="PrintConsole.h">
+      <Filter>PrintConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintPage.h">
+      <Filter>PrintConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="GDAttribute.h" />
+    <ClInclude Include="GDAttributeTypes.h" />
+    <ClInclude Include="GDMeshStream.h" />
+    <ClInclude Include="MMNewDefine.h" />
+    <ClInclude Include="DebugRenderer.h" />
+    <ClInclude Include="XMLLoadingMethods.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="float4x4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="BMPFile.cpp">
+      <Filter>TextureFileLoaders</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalOutput.cpp" />
+    <ClCompile Include="GDMesh.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="GDMeshAppearance.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="GDMeshAttribute.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="GDModel.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="GDTextureObject.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentManager.cpp" />
+    <ClCompile Include="PrintConsole.cpp">
+      <Filter>PrintConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintPage.cpp">
+      <Filter>PrintConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="GDAttribute.cpp" />
+    <ClCompile Include="DebugRenderer.cpp" />
+    <ClCompile Include="XMLLoadingMethods.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

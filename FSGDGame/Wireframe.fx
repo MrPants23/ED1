@@ -1,0 +1,44 @@
+// globals
+float4x4	gMVP;		// world * view * projection
+float time;
+
+// Define a vertex shader output structure;
+struct OutputVS
+{
+    float4 posW:POSITION0;
+    float4 color:COLOR0;
+};
+
+// Vertex shader -------------------------------------------------------------------------------------
+OutputVS TransformVS(float3 position:POSITION0, float4 col:COLOR0)
+{
+	// output structure
+	OutputVS outVS;
+
+	float4 temp = float4(position, 1.0f);
+	
+	outVS.posW = mul(temp, gMVP);
+	outVS.color = col;
+	
+    return outVS;
+}
+
+// Pixel Shader ---------------------------------------------------------------------------
+float4 TransformPS(float4 color:COLOR0):COLOR
+{
+	return color;
+}
+
+// ----------------------------------------------------------------------------------------
+technique Basic
+{
+    pass P0
+    {
+        vertexShader = compile vs_2_0 TransformVS();
+        pixelShader  = compile ps_2_0 TransformPS();
+
+		ShadeMode = Flat;
+        FillMode = Wireframe;
+        CullMode = None;
+    }
+}

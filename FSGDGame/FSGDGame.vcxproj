@@ -1,0 +1,1387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Engine|Win32">
+      <Configuration>Debug_Engine</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Engine|x64">
+      <Configuration>Debug_Engine</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Game|Win32">
+      <Configuration>Debug_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Game|x64">
+      <Configuration>Debug_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Engine|Win32">
+      <Configuration>Release_Engine</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Engine|x64">
+      <Configuration>Release_Engine</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Game|Win32">
+      <Configuration>Release_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Game|x64">
+      <Configuration>Release_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C3BB214-0A47-4DCA-8F9C-FD755A9494A4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EDGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>"..\DebugLibsWin32\";$(DXSDK_DIR)lib\x86\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>"..\DebugLibsx64\";$(DXSDK_DIR)lib\x64\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>"..\DebugLibsWin32\";$(DXSDK_DIR)lib\x86\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>"..\DebugLibsx64\";$(DXSDK_DIR)lib\x64\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>"..\DebugLibsWin32\";$(DXSDK_DIR)lib\x86\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>"..\DebugLibsx64\";$(DXSDK_DIR)lib\x64\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>"..\ReleaseLibsWin32\";$(DXSDK_DIR)lib\x86\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>"..\ReleaseLibsx64\";$(DXSDK_DIR)lib\x64\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>"..\ReleaseLibsWin32\";$(DXSDK_DIR)lib\x86\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>"..\ReleaseLibsx64\";$(DXSDK_DIR)lib\x64\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>"..\ReleaseLibsWin32\";$(DXSDK_DIR)lib\x86\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>"..\ReleaseLibsx64\";$(DXSDK_DIR)lib\x64\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CONFIG_DEBUG;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\Debug\UnitTest++Process.exe"
+copy /y ".\win32Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"
+copy /y "..\Debug\FSGDGame.exe" ".\FSGDGame.exe"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CONFIG_DEBUG;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\x64\Debug\UnitTest++Process.exe"
+copy /y ".\x64Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"
+copy /y "..\x64\Debug\FSGDGame.exe" ".\FSGDGame.exe"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CONFIG_DEBUG_ENGINE;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\Debug\UnitTest++Process.exe"
+copy /y ".\win32Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"
+copy /y "..\Debug\FSGDGame.exe" ".\FSGDGame.exe"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CONFIG_DEBUG_ENGINE;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\x64\Debug\UnitTest++Process.exe"
+copy /y ".\x64Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"
+copy /y "..\x64\Debug\FSGDGame.exe" ".\FSGDGame.exe"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CONFIG_DEBUG_GAME;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\Debug\UnitTest++Process.exe"
+copy /y ".\win32Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"
+copy /y "..\Debug\FSGDGame.exe" ".\FSGDGame.exe"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CONFIG_DEBUG_GAME;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\x64\Debug\UnitTest++Process.exe"
+copy /y ".\x64Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"
+copy /y "..\x64\Debug\FSGDGame.exe" ".\FSGDGame.exe"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CONFIG_RELEASE;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\Release\UnitTest++Process.exe"
+copy /y ".\win32Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CONFIG_RELEASE;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\x64\Release\UnitTest++Process.exe"
+copy /y ".\x64Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CONFIG_RELEASE_ENGINE;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\Release\UnitTest++Process.exe"
+copy /y ".\win32Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CONFIG_RELEASE_ENGINE;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\x64\Release\UnitTest++Process.exe"
+copy /y ".\x64Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CONFIG_RELEASE_GAME;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\Release\UnitTest++Process.exe"
+copy /y ".\win32Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CONFIG_RELEASE_GAME;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>EDCollision.lib;EDSolutions.lib;EDTree.lib;dxguid.lib;d3d9.lib;d3dx9.lib;dinput8.lib;XInput.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>"..\x64\Release\UnitTest++Process.exe"
+copy /y ".\x64Dlls\EDHeapSolution.dll" ".\EDHeapSolution.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ArchGame.h" />
+    <ClInclude Include="AttributeReaders.h" />
+    <ClInclude Include="BaseRenderable.h" />
+    <ClInclude Include="Behaviors.h" />
+    <ClInclude Include="CameraBehavior.h" />
+    <ClInclude Include="CharacterController.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="CollisionContact.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="DirectionalLightController.h" />
+    <ClInclude Include="EDGOCAGame.h" />
+    <ClInclude Include="FSGDGame.h" />
+    <ClInclude Include="FSGDOcclusionQuery.h" />
+    <ClInclude Include="FSGDWinMain.h" />
+    <ClInclude Include="GameBase.h" />
+    <ClInclude Include="GroundClamp.h" />
+    <ClInclude Include="HardAttachBehavior.h" />
+    <ClInclude Include="InputConsole.h" />
+    <ClInclude Include="JoystickBehavior.h" />
+    <ClInclude Include="KeyboardBehavior.h" />
+    <ClInclude Include="LightController.h" />
+    <ClInclude Include="LookAtBehavior.h" />
+    <ClInclude Include="MouseLookBehavior.h" />
+    <ClInclude Include="PauseEffect.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="PointLightBehavior.h" />
+    <ClInclude Include="PostProcessChain.h" />
+    <ClInclude Include="ProjectileBehavior.h" />
+    <ClInclude Include="Renderable.h" />
+    <ClInclude Include="RenderableBehaviorT.h" />
+    <ClInclude Include="RenderableSetBehaviorT.h" />
+    <ClInclude Include="RenderController.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SkyBoxBehavior.h" />
+    <ClInclude Include="SpinBehavior.h" />
+    <ClInclude Include="SpotLightBehavior.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TranslatorBehavior.h" />
+    <ClInclude Include="TurnToBehavior.h" />
+    <ClInclude Include="TurretBehavior.h" />
+    <ClInclude Include="WheelBehavior.h" />
+    <ClInclude Include="WorldData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArchGame.cpp" />
+    <ClCompile Include="BaseRenderable.cpp" />
+    <ClCompile Include="CameraBehavior.cpp" />
+    <ClCompile Include="CharacterController.cpp" />
+    <ClCompile Include="DirectionalLightController.cpp" />
+    <ClCompile Include="FSGDOcclusionQuery.cpp" />
+    <ClCompile Include="GroundClamp.cpp" />
+    <ClCompile Include="HardAttachBehavior.cpp" />
+    <ClCompile Include="JoystickBehavior.cpp" />
+    <ClCompile Include="KeyboardBehavior.cpp" />
+    <ClCompile Include="LightController.cpp" />
+    <ClCompile Include="LookAtBehavior.cpp" />
+    <ClCompile Include="MouseLookBehavior.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="Behaviors.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="EDGOCAGame.cpp" />
+    <ClCompile Include="FSGDGame.cpp" />
+    <ClCompile Include="FSGDWinMain.cpp" />
+    <ClCompile Include="GameBase.cpp" />
+    <ClCompile Include="InputConsole.cpp" />
+    <ClCompile Include="PauseEffect.cpp" />
+    <ClCompile Include="PointLightBehavior.cpp" />
+    <ClCompile Include="PostProcessChain.cpp" />
+    <ClCompile Include="ProjectileBehavior.cpp" />
+    <ClCompile Include="Renderable.cpp" />
+    <ClCompile Include="RenderController.cpp" />
+    <ClCompile Include="RenderControllerCommands.cpp" />
+    <ClCompile Include="SkyBoxBehavior.cpp" />
+    <ClCompile Include="SpinBehavior.cpp" />
+    <ClCompile Include="SpotLightBehavior.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TranslatorBehavior.cpp" />
+    <ClCompile Include="TurnToBehavior.cpp" />
+    <ClCompile Include="TurretBehavior.cpp" />
+    <ClCompile Include="WheelBehavior.cpp" />
+    <ClCompile Include="WorldData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2DPassThrough.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="BrightPass.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="BloomH.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="BloomV.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Combine.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="ColorEdgeCombine.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="CommonDeclarations.fx" />
+    <None Include="CommonVertexEffects.fx" />
+    <None Include="Depth.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="DepthOfField.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="DeferredDirLight.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="DeferredPointLight.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="GaussianBlur.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="GBuffers.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="GBuffersBump.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="DrawEdge.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="DownFilterX4.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Text</FileType>
+    </None>
+    <None Include="DebugLine.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="DeferredSpotLight.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Fade.fx">
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="FSGDGame.ico" />
+    <None Include="GaussianBlurV.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="GaussianBlurH.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Fxaa.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="LightingSupport.fx" />
+    <None Include="LitTextured.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="SkyBox.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="PostTest.fx" />
+    <None Include="small.ico" />
+    <None Include="Terrain.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Wireframe.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="UpFilterX4.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="ToneMapping.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="ToneCalc.fx">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(DXSDK_DIR)Utilities\bin\x86\"fxc.exe  /T fx_2_0 /Fo "%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Engine|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Filename).fxo</Outputs>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Water.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EDEventManager\EDEventManager.vcxproj">
+      <Project>{8ddde7b0-c9a0-4ec9-ba50-70d75dccfff0}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EDGOCA\EDGOCA.vcxproj">
+      <Project>{f6e4e7fe-dd8e-4b6d-bf70-9fefc4e7a2b6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EDInput\EDInput.vcxproj">
+      <Project>{f7935101-1a18-4536-acdc-d3745f34b506}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EDLUAWrappers\EDLUAWrappers.vcxproj">
+      <Project>{4bb238b9-40a9-4d5b-b680-3b1f1af8b1c9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EDLUA\EDLUA.vcxproj">
+      <Project>{9baa7e35-127e-453a-83e9-dee491da7424}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EDMemoryManager\EDMemoryManager.vcxproj">
+      <Project>{37ec4c62-fe44-4938-92ce-e65d92741511}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EDRendererD3D\EDRendererD3D.vcxproj">
+      <Project>{e3098cf1-223b-4d21-87d0-58ab1cb1926c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EDThreadPool\EDThreadPool.vcxproj">
+      <Project>{4f48cb36-f25d-4560-ad07-50d5e1029dc8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EDUtilities\EDUtilities.vcxproj">
+      <Project>{0daf44ca-7d12-4a47-908c-533a02033fa2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\tinyxml\tinyxml.vcxproj">
+      <Project>{f3795057-5845-47ad-872f-66520a79b202}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FSGDGame.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<MouseMapping>
+<Key>VK_RBUTTON</Key>
+<State>Pressed</State>
+<Message>MSG_MOUSE_BEGIN_ROTATE</Message>
+
+<Key>VK_RBUTTON</Key>
+<State>Released</State>
+<Message>MSG_MOUSE_END_ROTATE</Message>
+
+<Key>VK_RBUTTON</Key>
+<State>Held</State>
+<Message>MSG_MOUSE_ROTATE</Message>
+</MouseMapping>

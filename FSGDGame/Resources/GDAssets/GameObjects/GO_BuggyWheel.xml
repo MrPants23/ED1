@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<GameObject>
+  <Flags>
+    <Updateable>1</Updateable>
+  </Flags>
+  <Behavior_List>
+    <Behavior>BaseRenderable</Behavior>
+    <Behavior>KeyboardBehavior</Behavior>
+    <Behavior>WheelBehavior</Behavior>
+  </Behavior_List>
+  <Attribute_List>
+    <Attribute>
+      <Name>
+        BASE_RENDERABLE_SHAPE_PATH_LIST
+      </Name>
+      <Value>
+        <RenderShape>
+          <Path>GDForm/GDBuggy/Body/WheelFrontLeft/WheelShape/frm_mat_lambert3_rc_LitTexturedShadows.xml</Path>
+        </RenderShape>
+      </Value>
+    </Attribute>
+  </Attribute_List>
+</GameObject>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<GDRenderContext name="OcclusionContext">
+<Material></Material>
+<Effect>occlusionTest.fx</Effect>
+<Technique>Basic</Technique>
+<UnlitTechnique>Basic</UnlitTechnique>
+<VertexFormat>VERTEX_POSCOLOR</VertexFormat>
+</GDRenderContext>

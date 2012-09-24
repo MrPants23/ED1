@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GDModel>
+  <GDModelPart>
+    <ParentIndex>-1</ParentIndex>
+    <LocalTransform>
+      <XAxis>
+        <x>1</x>
+        <y>0</y>
+        <z>0</z>
+        <w>0</w>
+      </XAxis>
+      <YAxis>
+        <x>0</x>
+        <y>1</y>
+        <z>0</z>
+        <w>0</w>
+      </YAxis>
+      <ZAxis>
+        <x>0</x>
+        <y>0</y>
+        <z>1</z>
+        <w>0</w>
+      </ZAxis>
+      <WAxis>
+        <x>0</x>
+        <y>0</y>
+        <z>0.9</z>
+        <w>1</w>
+      </WAxis>
+    </LocalTransform>
+    <GDFormFile>GDForm/frm_LuaHUD.xml</GDFormFile>
+  </GDModelPart>
+</GDModel>

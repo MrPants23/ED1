@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GDForm name="mat_GUITest">
+  <GDMeshFile>GDMesh/ScreenQuad/ScreenQuadShape.xml</GDMeshFile>
+  <GDMaterialFile>GDMaterial/mat_LuaHUD.xml</GDMaterialFile>
+  <GDRenderContextFile>GUI</GDRenderContextFile>
+  <RenderShapeType>RenderShapeGUI</RenderShapeType>
+</GDForm>

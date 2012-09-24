@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<GameObject>
+<Flags>
+	<Updateable>1</Updateable>	
+</Flags>
+<Behavior_List>
+	<Behavior>SpotLightBehavior</Behavior>
+</Behavior_List>
+<Attribute_List>
+</Attribute_List>
+</GameObject>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<JoystickMapping>
+  <Key>LEFT_STICK_INPUT</Key>
+  <State>Held</State>
+  <Message>MSG_LEFT_JOYSTICK</Message>
+  <Key>RIGHT_STICK_INPUT</Key>
+  <State>Held</State>
+  <Message>MSG_RIGHT_JOYSTICK</Message>  
+  <Key>BUTTON_A</Key>
+  <State>Pressed</State>
+  <Message>MSG_FIRE</Message>
+</JoystickMapping>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<GDRenderContext name="GUITest">
+<Material></Material>
+<Effect>2DPassThrough.fx</Effect>
+<Technique>GUI</Technique>
+<GUITechnique>GUI</GUITechnique>
+<VertexFormat>VERTEX_POSTEX</VertexFormat>
+<CastShadows>false</CastShadows>
+<RenderStyle>FORWARD</RenderStyle>
+</GDRenderContext>

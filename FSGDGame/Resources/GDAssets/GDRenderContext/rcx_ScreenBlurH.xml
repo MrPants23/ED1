@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<GDRenderContext name="ScreenBlurV">
+<Material></Material>
+<Effect>GaussianBlur.fxo</Effect>
+<Technique>HorizontalBlur</Technique>
+<UnlitTechnique>HorizontalBlur</UnlitTechnique>
+<VertexFormat>VERTEX_POSTEX</VertexFormat>
+<CastShadows>false</CastShadows>
+</GDRenderContext>

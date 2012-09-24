@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<GDRenderContext name="WireframeColored">
+<Material></Material>
+<Effect>Wireframe.fxo</Effect>
+<Technique>Basic</Technique>
+<UnlitTechnique>Basic</UnlitTechnique>
+<VertexFormat>VERTEX_POSCOLOR</VertexFormat>
+</GDRenderContext>

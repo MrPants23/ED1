@@ -1,0 +1,27 @@
+-- Lua Coding Conventions
+-- Variable types
+char = c
+bool = b
+short = s
+int = n
+unsigned int = un
+float = f
+double = d
+table = t
+structure = T
+class = C
+string = sz
+iostream = io
+error = e
+enum = en
+
+-- Variable scope
+function parameter = _
+class member = m_
+global = g
+
+-- Coding rules
+1.  Always use semicolons where appropriate
+2.  Function parameters should be properly named and defined in comments
+3.  Called C++ function comments should include parameter list
+4.  All requires are put in at the top of the script

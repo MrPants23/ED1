@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<GameObject>
+<Flags>
+	<Updateable>1</Updateable>	
+</Flags>
+<Behavior_List>
+	<Behavior>CharacterController</Behavior>
+	<Behavior>KeyboardBehavior</Behavior>
+	<Behavior>Collider</Behavior>
+	<Behavior>BaseRenderable</Behavior>
+</Behavior_List>
+<Attribute_List>
+	<Attribute>
+		<Name>
+			COLLIDER_ATTRIB
+		</Name>
+		<Value>
+			<Type>SPHERE</Type>
+			<Center>
+				<x>0</x><y>0.375</y><z>0.0</z>
+			</Center>
+			<Radius>0.375</Radius>
+		</Value>
+	</Attribute>
+	<Attribute>
+		<Name>
+			BASE_RENDERABLE_SHAPE_PATH_LIST
+		</Name>
+		<Value>
+			<RenderShape>
+				<Path>GDForm/VZ_Robot_Walk/robotkid/robotkidShape/frm_mat_blinn1_rc_LitTexturedShadows.xml</Path>
+			</RenderShape>
+		</Value>
+	</Attribute>
+</Attribute_List>
+</GameObject>

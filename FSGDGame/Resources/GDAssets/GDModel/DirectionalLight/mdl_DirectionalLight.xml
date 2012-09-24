@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<GDModel>
+<GDModelPart>
+<ParentIndex>-1</ParentIndex>
+<LocalTransform>
+<XAxis><x>1.000000</x><y>0.000000</y><z>0.000000</z><w>0.000000</w>
+</XAxis>
+<YAxis><x>0.000000</x><y>1.000000</y><z>0.000000</z><w>0.000000</w>
+</YAxis>
+<ZAxis><x>0.000000</x><y>0.000000</y><z>1.000000</z><w>0.000000</w>
+</ZAxis>
+<WAxis><x>0.000000</x><y>0.000000</y><z>0.000000</z><w>1.000000</w>
+</WAxis>
+</LocalTransform>
+<GDFormFile>GDForm/DirectionalLight/frm_DirectionalLightDeferred.xml</GDFormFile>
+</GDModelPart>
+</GDModel>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<KeyMapping>
+<Key>VK_UP</Key>
+<State>Held</State>
+<Message>MSG_MOVE_FORWARD</Message>
+<Key>VK_DOWN</Key>
+<State>Held</State>
+<Message>MSG_MOVE_BACKWARD</Message>
+<Key>VK_LEFT</Key>
+<State>Held</State>
+<Message>MSG_MOVE_LEFT</Message>
+<Key>VK_RIGHT</Key>
+<State>Held</State>
+<Message>MSG_MOVE_RIGHT</Message>
+</KeyMapping>

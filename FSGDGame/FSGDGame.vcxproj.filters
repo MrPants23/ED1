@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{482a5eca-08d9-4895-8d65-873b1c5f2748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{21d23ab6-c21e-45cf-80d4-90cf35504ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDGOCAGame">
+      <UniqueIdentifier>{bdf2fd5b-edb9-4335-a935-29907521ae87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDGOCAGame\Header Files">
+      <UniqueIdentifier>{b0d49803-53c5-44ad-9ae2-a15afcfdcb3f}</UniqueIdentifier>
+      <Extensions>h;hpp</Extensions>
+    </Filter>
+    <Filter Include="EDGOCAGame\Source Files">
+      <UniqueIdentifier>{cc08afae-9920-4f57-847c-89e9c6df3157}</UniqueIdentifier>
+      <Extensions>c;cpp</Extensions>
+    </Filter>
+    <Filter Include="EDGOCAGame\Header Files\Behaviors">
+      <UniqueIdentifier>{ad4b581a-57f7-45d9-84b5-63bb134a4c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDGOCAGame\Source Files\Behaviors">
+      <UniqueIdentifier>{a366d008-f883-4dac-a0b8-7d4401628166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOCABehaviors">
+      <UniqueIdentifier>{56b0b279-6dc5-448e-857d-a9e2c54c4f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOCABehaviors\Header Files">
+      <UniqueIdentifier>{4f788890-18d9-421e-a26f-258570c28aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOCABehaviors\Source Files">
+      <UniqueIdentifier>{60b033e7-8eb7-4e70-a751-0be2f0168869}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSGDGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSGDWinMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EDGOCAGame.h">
+      <Filter>EDGOCAGame\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors.h">
+      <Filter>EDGOCAGame\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionContact.h">
+      <Filter>EDGOCAGame\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslatorBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightController.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HardAttachBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightController.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LookAtBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseLookBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBoxBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterController.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundClamp.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableBehaviorT.h">
+      <Filter>EDGOCAGame\Header Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeReaders.h">
+      <Filter>EDGOCAGame\Header Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableSetBehaviorT.h">
+      <Filter>EDGOCAGame\Header Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRenderable.h">
+      <Filter>EDGOCAGame\Header Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLightBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSGDOcclusionQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnToBehavior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WheelBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JoystickBehavior.h">
+      <Filter>GOCABehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileBehavior.h">
+      <Filter>GOCABehaviors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InputConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSGDGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSGDWinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderControllerCommands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EDGOCAGame.cpp">
+      <Filter>EDGOCAGame\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors.cpp">
+      <Filter>EDGOCAGame\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightController.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HardAttachBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightController.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LookAtBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseLookBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBoxBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslatorBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterController.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundClamp.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseRenderable.cpp">
+      <Filter>EDGOCAGame\Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLightBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSGDOcclusionQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WheelBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JoystickBehavior.cpp">
+      <Filter>GOCABehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileBehavior.cpp">
+      <Filter>GOCABehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnToBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommonDeclarations.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CommonVertexEffects.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LightingSupport.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="FSGDGame.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Water.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="PostTest.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DeferredDirLight.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LitTextured.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GBuffersBump.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GBuffers.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GaussianBlurV.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GaussianBlurH.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DrawEdge.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DepthOfField.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DeferredSpotLight.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DeferredPointLight.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="UpFilterX4.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ToneMapping.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ToneCalc.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Terrain.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="SkyBox.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GaussianBlur.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Fxaa.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Fade.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DownFilterX4.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Depth.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DebugLine.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Combine.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ColorEdgeCombine.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="BrightPass.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="BloomV.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="BloomH.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="2DPassThrough.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Wireframe.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FSGDGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

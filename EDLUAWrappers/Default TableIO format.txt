@@ -1,0 +1,18 @@
+TableIO format for StrictStruct
+-------------------------------
+
+return {
+-- Table: {1}
+{
+   ["m_fGreen"]=255,
+   ["m_fAlpha"]=255,
+   ["m_fPosX"]=0,
+   ["m_szFilename"]="Default",
+   ["m_fRed"]=255,
+   ["m_fHeight"]=0,
+   ["m_fWidth"]=0,
+   ["m_fBlue"]=255,
+   ["m_fRotation"]=0,
+   ["m_fPosY"]=0,
+},
+}

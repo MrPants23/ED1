@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<GDRenderContext name="LitTexturedTransparent">
+<Material></Material>
+<Effect>LitTextured.fxo</Effect>
+<Technique>Basic</Technique>
+<TransparencyTechnique>Transparency</TransparencyTechnique>
+<VertexFormat>VERTEX_POSNORMTEX</VertexFormat>
+<CastShadows>false</CastShadows>
+<RenderStyle>TRANSPARENT</RenderStyle>
+</GDRenderContext>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<GameObject>
+<Flags>
+	<Updateable>1</Updateable>	
+</Flags>
+<Behavior_List>
+	<Behavior>BaseRenderable</Behavior>
+	<Behavior>SpinBehavior</Behavior>
+</Behavior_List>
+<Attribute_List>
+	<Attribute>
+		<Name>
+			BASE_RENDERABLE_SHAPE_PATH_LIST
+		</Name>
+		<Value>
+			<RenderShape>
+				<Path>GDForm/HighRes/High_Res/High_ResShape/frm_mat_lambert1_rc_LitTexturedShadows.xml</Path>
+				<Path>GDForm/MedRes/Med_Res/Med_ResShape/frm_mat_lambert1_rc_LitTexturedShadows.xml</Path>
+				<Path>GDForm/LowRes/Low_Res/Low_ResShape/frm_mat_lambert1_rc_LitTexturedShadows.xml</Path>
+			</RenderShape>
+		</Value>
+	</Attribute>
+</Attribute_List>
+</GameObject>

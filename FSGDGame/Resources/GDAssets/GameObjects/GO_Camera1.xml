@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<GameObject>
+<Flags>
+	<Updateable>1</Updateable>	
+</Flags>
+<Behavior_List>
+	<Behavior>CameraBehavior</Behavior>
+	<Behavior>TranslatorBehavior</Behavior>
+	<Behavior>KeyboardBehavior</Behavior>
+	<Behavior>MouseLookBehavior</Behavior>
+	<Behavior>Collider</Behavior>
+</Behavior_List>
+<Attribute_List>
+	<Attribute>
+		<Name>
+			COLLIDER_ATTRIB
+		</Name>
+		<Value>
+			<Type>SPHERE</Type>
+			<Center>
+				<x>0</x><y>0</y><z>0.0</z>
+			</Center>
+			<Radius>1.5</Radius>
+		</Value>
+	</Attribute>
+</Attribute_List>
+</GameObject>

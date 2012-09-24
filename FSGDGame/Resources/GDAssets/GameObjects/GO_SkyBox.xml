@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<GameObject>
+<Flags>
+	<Updateable>1</Updateable>	
+</Flags>
+<Behavior_List>
+	<Behavior>BaseRenderable</Behavior>
+	<Behavior>SkyBoxBehavior</Behavior>
+</Behavior_List>
+<Attribute_List>
+	<Attribute>
+		<Name>
+			BASE_RENDERABLE_SHAPE_PATH_LIST
+		</Name>
+		<Value>
+			<RenderShape>
+				<Path>GDForm/skybox/pCube1/pCubeShape1/frm_mat_blinn1_rc_SkyBox0.xml</Path>
+			</RenderShape>
+		</Value>
+	</Attribute>
+</Attribute_List>
+</GameObject>

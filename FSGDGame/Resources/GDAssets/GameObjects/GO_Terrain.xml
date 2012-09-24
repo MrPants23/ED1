@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<GameObject>
+<Flags>
+	<Static>1</Static>	
+</Flags>
+<Behavior_List>
+	<Behavior>BaseRenderable</Behavior>
+	<Behavior>Collider</Behavior>
+</Behavior_List>
+<Attribute_List>
+	<Attribute>
+		<Name>
+			BASE_RENDERABLE_SHAPE_PATH_LIST
+		</Name>
+		<Value>
+			<RenderShape>
+				<Path>GDForm/Terrain/pPlane1/pPlaneShape1/frm_mat_blinn1_rc_LitTextured.xml</Path>
+			</RenderShape>
+		</Value>
+	</Attribute>
+	<Attribute>
+		<Name>
+			COLLIDER_ATTRIB
+		</Name>
+		<Value>
+			<Type>MESH</Type>
+			<Path>GDMesh/terrain/pPlaneShape1.bin</Path>
+		</Value>
+	</Attribute>
+</Attribute_List>
+</GameObject>

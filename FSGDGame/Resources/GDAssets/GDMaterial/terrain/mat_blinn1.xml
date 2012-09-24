@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<GDMaterial name="blinn1">
+<Ambient>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Ambient>
+<Diffuse_Map>neg_y.tga</Diffuse_Map>
+<Diffuse>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Diffuse>
+<Specular_Map>dirt3.bmp</Specular_Map>
+<Specular>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Specular>
+<Emmisive>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Emmisive>
+<Reflected>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Reflected>
+<Normal_Map>noise4.bmp</Normal_Map>
+</GDMaterial>

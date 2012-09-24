@@ -1,0 +1,14 @@
+.nsh binary file format
+
+for number of verticies in nav mesh: unsigned int: Bytes: 4
+
+	Vert(float xyz): struct vec: Bytes: 12
+
+for number of polygons in nav mesh: unsigned int: Bytes: 4
+
+	for polygon dimensions: unsigned int: Bytes: 4
+
+		vert_index: unsigned int: Bytes: 4
+
+		Adjacency(in file index: -1 if none): int: Bytes: 4
+

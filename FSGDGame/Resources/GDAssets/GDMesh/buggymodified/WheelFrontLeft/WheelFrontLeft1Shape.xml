@@ -1,0 +1,3255 @@
+<?xml version="1.0"?>
+<GDMesh name="WheelFrontLeft|WheelFrontLeft1Shape">
+	<NumVerts>110</NumVerts>
+	<Triangle_List count="116">		<Triangle n="0">
+			<Index n="0">0</Index>
+			<Index n="1">1</Index>
+			<Index n="2">2</Index>
+		</Triangle>
+		<Triangle n="1">
+			<Index n="0">1</Index>
+			<Index n="1">3</Index>
+			<Index n="2">2</Index>
+		</Triangle>
+		<Triangle n="2">
+			<Index n="0">1</Index>
+			<Index n="1">4</Index>
+			<Index n="2">3</Index>
+		</Triangle>
+		<Triangle n="3">
+			<Index n="0">4</Index>
+			<Index n="1">5</Index>
+			<Index n="2">3</Index>
+		</Triangle>
+		<Triangle n="4">
+			<Index n="0">6</Index>
+			<Index n="1">7</Index>
+			<Index n="2">8</Index>
+		</Triangle>
+		<Triangle n="5">
+			<Index n="0">7</Index>
+			<Index n="1">9</Index>
+			<Index n="2">8</Index>
+		</Triangle>
+		<Triangle n="6">
+			<Index n="0">7</Index>
+			<Index n="1">10</Index>
+			<Index n="2">9</Index>
+		</Triangle>
+		<Triangle n="7">
+			<Index n="0">10</Index>
+			<Index n="1">11</Index>
+			<Index n="2">9</Index>
+		</Triangle>
+		<Triangle n="8">
+			<Index n="0">12</Index>
+			<Index n="1">13</Index>
+			<Index n="2">14</Index>
+		</Triangle>
+		<Triangle n="9">
+			<Index n="0">13</Index>
+			<Index n="1">15</Index>
+			<Index n="2">14</Index>
+		</Triangle>
+		<Triangle n="10">
+			<Index n="0">13</Index>
+			<Index n="1">16</Index>
+			<Index n="2">15</Index>
+		</Triangle>
+		<Triangle n="11">
+			<Index n="0">16</Index>
+			<Index n="1">17</Index>
+			<Index n="2">15</Index>
+		</Triangle>
+		<Triangle n="12">
+			<Index n="0">18</Index>
+			<Index n="1">19</Index>
+			<Index n="2">20</Index>
+		</Triangle>
+		<Triangle n="13">
+			<Index n="0">19</Index>
+			<Index n="1">21</Index>
+			<Index n="2">20</Index>
+		</Triangle>
+		<Triangle n="14">
+			<Index n="0">19</Index>
+			<Index n="1">22</Index>
+			<Index n="2">21</Index>
+		</Triangle>
+		<Triangle n="15">
+			<Index n="0">22</Index>
+			<Index n="1">23</Index>
+			<Index n="2">21</Index>
+		</Triangle>
+		<Triangle n="16">
+			<Index n="0">24</Index>
+			<Index n="1">25</Index>
+			<Index n="2">26</Index>
+		</Triangle>
+		<Triangle n="17">
+			<Index n="0">25</Index>
+			<Index n="1">27</Index>
+			<Index n="2">26</Index>
+		</Triangle>
+		<Triangle n="18">
+			<Index n="0">25</Index>
+			<Index n="1">28</Index>
+			<Index n="2">27</Index>
+		</Triangle>
+		<Triangle n="19">
+			<Index n="0">28</Index>
+			<Index n="1">29</Index>
+			<Index n="2">27</Index>
+		</Triangle>
+		<Triangle n="20">
+			<Index n="0">30</Index>
+			<Index n="1">31</Index>
+			<Index n="2">32</Index>
+		</Triangle>
+		<Triangle n="21">
+			<Index n="0">31</Index>
+			<Index n="1">33</Index>
+			<Index n="2">32</Index>
+		</Triangle>
+		<Triangle n="22">
+			<Index n="0">33</Index>
+			<Index n="1">34</Index>
+			<Index n="2">32</Index>
+		</Triangle>
+		<Triangle n="23">
+			<Index n="0">34</Index>
+			<Index n="1">35</Index>
+			<Index n="2">32</Index>
+		</Triangle>
+		<Triangle n="24">
+			<Index n="0">35</Index>
+			<Index n="1">36</Index>
+			<Index n="2">32</Index>
+		</Triangle>
+		<Triangle n="25">
+			<Index n="0">36</Index>
+			<Index n="1">37</Index>
+			<Index n="2">32</Index>
+		</Triangle>
+		<Triangle n="26">
+			<Index n="0">37</Index>
+			<Index n="1">38</Index>
+			<Index n="2">32</Index>
+		</Triangle>
+		<Triangle n="27">
+			<Index n="0">38</Index>
+			<Index n="1">39</Index>
+			<Index n="2">32</Index>
+		</Triangle>
+		<Triangle n="28">
+			<Index n="0">40</Index>
+			<Index n="1">41</Index>
+			<Index n="2">42</Index>
+		</Triangle>
+		<Triangle n="29">
+			<Index n="0">41</Index>
+			<Index n="1">43</Index>
+			<Index n="2">42</Index>
+		</Triangle>
+		<Triangle n="30">
+			<Index n="0">43</Index>
+			<Index n="1">44</Index>
+			<Index n="2">42</Index>
+		</Triangle>
+		<Triangle n="31">
+			<Index n="0">44</Index>
+			<Index n="1">45</Index>
+			<Index n="2">42</Index>
+		</Triangle>
+		<Triangle n="32">
+			<Index n="0">45</Index>
+			<Index n="1">46</Index>
+			<Index n="2">42</Index>
+		</Triangle>
+		<Triangle n="33">
+			<Index n="0">46</Index>
+			<Index n="1">47</Index>
+			<Index n="2">42</Index>
+		</Triangle>
+		<Triangle n="34">
+			<Index n="0">47</Index>
+			<Index n="1">48</Index>
+			<Index n="2">42</Index>
+		</Triangle>
+		<Triangle n="35">
+			<Index n="0">48</Index>
+			<Index n="1">49</Index>
+			<Index n="2">42</Index>
+		</Triangle>
+		<Triangle n="36">
+			<Index n="0">50</Index>
+			<Index n="1">51</Index>
+			<Index n="2">52</Index>
+		</Triangle>
+		<Triangle n="37">
+			<Index n="0">51</Index>
+			<Index n="1">53</Index>
+			<Index n="2">52</Index>
+		</Triangle>
+		<Triangle n="38">
+			<Index n="0">51</Index>
+			<Index n="1">54</Index>
+			<Index n="2">53</Index>
+		</Triangle>
+		<Triangle n="39">
+			<Index n="0">54</Index>
+			<Index n="1">55</Index>
+			<Index n="2">53</Index>
+		</Triangle>
+		<Triangle n="40">
+			<Index n="0">54</Index>
+			<Index n="1">56</Index>
+			<Index n="2">55</Index>
+		</Triangle>
+		<Triangle n="41">
+			<Index n="0">56</Index>
+			<Index n="1">57</Index>
+			<Index n="2">55</Index>
+		</Triangle>
+		<Triangle n="42">
+			<Index n="0">56</Index>
+			<Index n="1">58</Index>
+			<Index n="2">57</Index>
+		</Triangle>
+		<Triangle n="43">
+			<Index n="0">58</Index>
+			<Index n="1">59</Index>
+			<Index n="2">57</Index>
+		</Triangle>
+		<Triangle n="44">
+			<Index n="0">58</Index>
+			<Index n="1">60</Index>
+			<Index n="2">59</Index>
+		</Triangle>
+		<Triangle n="45">
+			<Index n="0">60</Index>
+			<Index n="1">61</Index>
+			<Index n="2">59</Index>
+		</Triangle>
+		<Triangle n="46">
+			<Index n="0">60</Index>
+			<Index n="1">62</Index>
+			<Index n="2">61</Index>
+		</Triangle>
+		<Triangle n="47">
+			<Index n="0">62</Index>
+			<Index n="1">63</Index>
+			<Index n="2">61</Index>
+		</Triangle>
+		<Triangle n="48">
+			<Index n="0">62</Index>
+			<Index n="1">64</Index>
+			<Index n="2">63</Index>
+		</Triangle>
+		<Triangle n="49">
+			<Index n="0">64</Index>
+			<Index n="1">65</Index>
+			<Index n="2">63</Index>
+		</Triangle>
+		<Triangle n="50">
+			<Index n="0">64</Index>
+			<Index n="1">66</Index>
+			<Index n="2">65</Index>
+		</Triangle>
+		<Triangle n="51">
+			<Index n="0">66</Index>
+			<Index n="1">67</Index>
+			<Index n="2">65</Index>
+		</Triangle>
+		<Triangle n="52">
+			<Index n="0">66</Index>
+			<Index n="1">68</Index>
+			<Index n="2">67</Index>
+		</Triangle>
+		<Triangle n="53">
+			<Index n="0">68</Index>
+			<Index n="1">69</Index>
+			<Index n="2">67</Index>
+		</Triangle>
+		<Triangle n="54">
+			<Index n="0">68</Index>
+			<Index n="1">50</Index>
+			<Index n="2">69</Index>
+		</Triangle>
+		<Triangle n="55">
+			<Index n="0">50</Index>
+			<Index n="1">52</Index>
+			<Index n="2">69</Index>
+		</Triangle>
+		<Triangle n="56">
+			<Index n="0">70</Index>
+			<Index n="1">71</Index>
+			<Index n="2">72</Index>
+		</Triangle>
+		<Triangle n="57">
+			<Index n="0">71</Index>
+			<Index n="1">73</Index>
+			<Index n="2">72</Index>
+		</Triangle>
+		<Triangle n="58">
+			<Index n="0">71</Index>
+			<Index n="1">74</Index>
+			<Index n="2">73</Index>
+		</Triangle>
+		<Triangle n="59">
+			<Index n="0">74</Index>
+			<Index n="1">75</Index>
+			<Index n="2">73</Index>
+		</Triangle>
+		<Triangle n="60">
+			<Index n="0">74</Index>
+			<Index n="1">76</Index>
+			<Index n="2">75</Index>
+		</Triangle>
+		<Triangle n="61">
+			<Index n="0">76</Index>
+			<Index n="1">77</Index>
+			<Index n="2">75</Index>
+		</Triangle>
+		<Triangle n="62">
+			<Index n="0">76</Index>
+			<Index n="1">78</Index>
+			<Index n="2">77</Index>
+		</Triangle>
+		<Triangle n="63">
+			<Index n="0">78</Index>
+			<Index n="1">79</Index>
+			<Index n="2">77</Index>
+		</Triangle>
+		<Triangle n="64">
+			<Index n="0">78</Index>
+			<Index n="1">80</Index>
+			<Index n="2">79</Index>
+		</Triangle>
+		<Triangle n="65">
+			<Index n="0">80</Index>
+			<Index n="1">81</Index>
+			<Index n="2">79</Index>
+		</Triangle>
+		<Triangle n="66">
+			<Index n="0">80</Index>
+			<Index n="1">82</Index>
+			<Index n="2">81</Index>
+		</Triangle>
+		<Triangle n="67">
+			<Index n="0">82</Index>
+			<Index n="1">83</Index>
+			<Index n="2">81</Index>
+		</Triangle>
+		<Triangle n="68">
+			<Index n="0">82</Index>
+			<Index n="1">84</Index>
+			<Index n="2">83</Index>
+		</Triangle>
+		<Triangle n="69">
+			<Index n="0">84</Index>
+			<Index n="1">85</Index>
+			<Index n="2">83</Index>
+		</Triangle>
+		<Triangle n="70">
+			<Index n="0">84</Index>
+			<Index n="1">86</Index>
+			<Index n="2">85</Index>
+		</Triangle>
+		<Triangle n="71">
+			<Index n="0">86</Index>
+			<Index n="1">87</Index>
+			<Index n="2">85</Index>
+		</Triangle>
+		<Triangle n="72">
+			<Index n="0">86</Index>
+			<Index n="1">88</Index>
+			<Index n="2">87</Index>
+		</Triangle>
+		<Triangle n="73">
+			<Index n="0">88</Index>
+			<Index n="1">89</Index>
+			<Index n="2">87</Index>
+		</Triangle>
+		<Triangle n="74">
+			<Index n="0">88</Index>
+			<Index n="1">70</Index>
+			<Index n="2">89</Index>
+		</Triangle>
+		<Triangle n="75">
+			<Index n="0">70</Index>
+			<Index n="1">72</Index>
+			<Index n="2">89</Index>
+		</Triangle>
+		<Triangle n="76">
+			<Index n="0">52</Index>
+			<Index n="1">53</Index>
+			<Index n="2">90</Index>
+		</Triangle>
+		<Triangle n="77">
+			<Index n="0">53</Index>
+			<Index n="1">91</Index>
+			<Index n="2">90</Index>
+		</Triangle>
+		<Triangle n="78">
+			<Index n="0">53</Index>
+			<Index n="1">55</Index>
+			<Index n="2">91</Index>
+		</Triangle>
+		<Triangle n="79">
+			<Index n="0">55</Index>
+			<Index n="1">92</Index>
+			<Index n="2">91</Index>
+		</Triangle>
+		<Triangle n="80">
+			<Index n="0">55</Index>
+			<Index n="1">57</Index>
+			<Index n="2">92</Index>
+		</Triangle>
+		<Triangle n="81">
+			<Index n="0">57</Index>
+			<Index n="1">93</Index>
+			<Index n="2">92</Index>
+		</Triangle>
+		<Triangle n="82">
+			<Index n="0">57</Index>
+			<Index n="1">59</Index>
+			<Index n="2">93</Index>
+		</Triangle>
+		<Triangle n="83">
+			<Index n="0">59</Index>
+			<Index n="1">94</Index>
+			<Index n="2">93</Index>
+		</Triangle>
+		<Triangle n="84">
+			<Index n="0">59</Index>
+			<Index n="1">61</Index>
+			<Index n="2">94</Index>
+		</Triangle>
+		<Triangle n="85">
+			<Index n="0">61</Index>
+			<Index n="1">95</Index>
+			<Index n="2">94</Index>
+		</Triangle>
+		<Triangle n="86">
+			<Index n="0">61</Index>
+			<Index n="1">63</Index>
+			<Index n="2">95</Index>
+		</Triangle>
+		<Triangle n="87">
+			<Index n="0">63</Index>
+			<Index n="1">96</Index>
+			<Index n="2">95</Index>
+		</Triangle>
+		<Triangle n="88">
+			<Index n="0">63</Index>
+			<Index n="1">65</Index>
+			<Index n="2">96</Index>
+		</Triangle>
+		<Triangle n="89">
+			<Index n="0">65</Index>
+			<Index n="1">97</Index>
+			<Index n="2">96</Index>
+		</Triangle>
+		<Triangle n="90">
+			<Index n="0">65</Index>
+			<Index n="1">67</Index>
+			<Index n="2">97</Index>
+		</Triangle>
+		<Triangle n="91">
+			<Index n="0">67</Index>
+			<Index n="1">98</Index>
+			<Index n="2">97</Index>
+		</Triangle>
+		<Triangle n="92">
+			<Index n="0">67</Index>
+			<Index n="1">69</Index>
+			<Index n="2">98</Index>
+		</Triangle>
+		<Triangle n="93">
+			<Index n="0">69</Index>
+			<Index n="1">99</Index>
+			<Index n="2">98</Index>
+		</Triangle>
+		<Triangle n="94">
+			<Index n="0">69</Index>
+			<Index n="1">52</Index>
+			<Index n="2">99</Index>
+		</Triangle>
+		<Triangle n="95">
+			<Index n="0">52</Index>
+			<Index n="1">90</Index>
+			<Index n="2">99</Index>
+		</Triangle>
+		<Triangle n="96">
+			<Index n="0">72</Index>
+			<Index n="1">73</Index>
+			<Index n="2">100</Index>
+		</Triangle>
+		<Triangle n="97">
+			<Index n="0">73</Index>
+			<Index n="1">101</Index>
+			<Index n="2">100</Index>
+		</Triangle>
+		<Triangle n="98">
+			<Index n="0">73</Index>
+			<Index n="1">75</Index>
+			<Index n="2">101</Index>
+		</Triangle>
+		<Triangle n="99">
+			<Index n="0">75</Index>
+			<Index n="1">102</Index>
+			<Index n="2">101</Index>
+		</Triangle>
+		<Triangle n="100">
+			<Index n="0">75</Index>
+			<Index n="1">77</Index>
+			<Index n="2">102</Index>
+		</Triangle>
+		<Triangle n="101">
+			<Index n="0">77</Index>
+			<Index n="1">103</Index>
+			<Index n="2">102</Index>
+		</Triangle>
+		<Triangle n="102">
+			<Index n="0">77</Index>
+			<Index n="1">79</Index>
+			<Index n="2">103</Index>
+		</Triangle>
+		<Triangle n="103">
+			<Index n="0">79</Index>
+			<Index n="1">104</Index>
+			<Index n="2">103</Index>
+		</Triangle>
+		<Triangle n="104">
+			<Index n="0">79</Index>
+			<Index n="1">81</Index>
+			<Index n="2">104</Index>
+		</Triangle>
+		<Triangle n="105">
+			<Index n="0">81</Index>
+			<Index n="1">105</Index>
+			<Index n="2">104</Index>
+		</Triangle>
+		<Triangle n="106">
+			<Index n="0">81</Index>
+			<Index n="1">83</Index>
+			<Index n="2">105</Index>
+		</Triangle>
+		<Triangle n="107">
+			<Index n="0">83</Index>
+			<Index n="1">106</Index>
+			<Index n="2">105</Index>
+		</Triangle>
+		<Triangle n="108">
+			<Index n="0">83</Index>
+			<Index n="1">85</Index>
+			<Index n="2">106</Index>
+		</Triangle>
+		<Triangle n="109">
+			<Index n="0">85</Index>
+			<Index n="1">107</Index>
+			<Index n="2">106</Index>
+		</Triangle>
+		<Triangle n="110">
+			<Index n="0">85</Index>
+			<Index n="1">87</Index>
+			<Index n="2">107</Index>
+		</Triangle>
+		<Triangle n="111">
+			<Index n="0">87</Index>
+			<Index n="1">108</Index>
+			<Index n="2">107</Index>
+		</Triangle>
+		<Triangle n="112">
+			<Index n="0">87</Index>
+			<Index n="1">89</Index>
+			<Index n="2">108</Index>
+		</Triangle>
+		<Triangle n="113">
+			<Index n="0">89</Index>
+			<Index n="1">109</Index>
+			<Index n="2">108</Index>
+		</Triangle>
+		<Triangle n="114">
+			<Index n="0">89</Index>
+			<Index n="1">72</Index>
+			<Index n="2">109</Index>
+		</Triangle>
+		<Triangle n="115">
+			<Index n="0">72</Index>
+			<Index n="1">100</Index>
+			<Index n="2">109</Index>
+		</Triangle>
+	</Triangle_List>
+	<GDMeshAttribute_List count="7">
+<GDMeshAttribute>
+<Point_List>
+<Point>
+<x>0.698713</x><y>2.054903</y><z>-1.492975</z>
+</Point>
+<Point>
+<x>0.698713</x><y>0.784903</y><z>-2.415684</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>2.054903</y><z>-1.492975</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>0.784903</y><z>-2.415684</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-0.784903</y><z>-2.415684</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-0.784903</y><z>-2.415684</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-0.784903</y><z>-2.415684</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-2.054903</y><z>-1.492974</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-0.784903</y><z>-2.415684</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-2.054903</y><z>-1.492974</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-2.540000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-2.540000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-2.540000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-2.054903</y><z>1.492974</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-2.540000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-2.054903</y><z>1.492974</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-0.784903</y><z>2.415683</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-0.784903</y><z>2.415684</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-0.784903</y><z>2.415683</z>
+</Point>
+<Point>
+<x>0.698713</x><y>0.784903</y><z>2.415683</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-0.784903</y><z>2.415684</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>0.784903</y><z>2.415684</z>
+</Point>
+<Point>
+<x>0.698713</x><y>2.054903</y><z>1.492974</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>2.054903</y><z>1.492974</z>
+</Point>
+<Point>
+<x>0.698713</x><y>2.054903</y><z>1.492974</z>
+</Point>
+<Point>
+<x>0.698713</x><y>2.540000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>2.054903</y><z>1.492974</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>2.540000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.698713</x><y>2.054903</y><z>-1.492975</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>2.054903</y><z>-1.492975</z>
+</Point>
+<Point>
+<x>0.679140</x><y>1.216845</y><z>-0.884090</z>
+</Point>
+<Point>
+<x>0.679140</x><y>1.504103</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.679140</x><y>0.464793</y><z>-1.430488</z>
+</Point>
+<Point>
+<x>0.679140</x><y>1.216846</y><z>0.884090</z>
+</Point>
+<Point>
+<x>0.679140</x><y>0.464793</y><z>1.430488</z>
+</Point>
+<Point>
+<x>0.679140</x><y>-0.464794</y><z>1.430488</z>
+</Point>
+<Point>
+<x>0.679140</x><y>-1.216845</y><z>0.884091</z>
+</Point>
+<Point>
+<x>0.679140</x><y>-1.504104</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.679140</x><y>-1.216845</y><z>-0.884089</z>
+</Point>
+<Point>
+<x>0.679140</x><y>-0.464794</y><z>-1.430488</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>1.216845</y><z>-0.884090</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>0.464793</y><z>-1.430488</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>1.504104</y><z>0.000000</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>-0.464794</y><z>-1.430488</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>-1.216845</y><z>-0.884089</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>-1.504103</y><z>0.000000</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>-1.216845</y><z>0.884091</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>-0.464793</y><z>1.430488</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>0.464793</y><z>1.430488</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>1.216846</y><z>0.884090</z>
+</Point>
+<Point>
+<x>0.698713</x><y>2.054903</y><z>-1.492975</z>
+</Point>
+<Point>
+<x>0.698713</x><y>2.540000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.945908</x><y>1.659334</y><z>-1.205577</z>
+</Point>
+<Point>
+<x>0.945908</x><y>2.051050</y><z>-0.000000</z>
+</Point>
+<Point>
+<x>0.698713</x><y>2.054903</y><z>1.492974</z>
+</Point>
+<Point>
+<x>0.945908</x><y>1.659335</y><z>1.205577</z>
+</Point>
+<Point>
+<x>0.698713</x><y>0.784903</y><z>2.415683</z>
+</Point>
+<Point>
+<x>0.945908</x><y>0.633809</y><z>1.950664</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-0.784903</y><z>2.415683</z>
+</Point>
+<Point>
+<x>0.945908</x><y>-0.633809</y><z>1.950664</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-2.054903</y><z>1.492974</z>
+</Point>
+<Point>
+<x>0.945908</x><y>-1.659334</y><z>1.205577</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-2.540000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.945908</x><y>-2.051050</y><z>-0.000000</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-2.054903</y><z>-1.492974</z>
+</Point>
+<Point>
+<x>0.945908</x><y>-1.659334</y><z>-1.205577</z>
+</Point>
+<Point>
+<x>0.698713</x><y>-0.784903</y><z>-2.415684</z>
+</Point>
+<Point>
+<x>0.945908</x><y>-0.633810</y><z>-1.950665</z>
+</Point>
+<Point>
+<x>0.698713</x><y>0.784903</y><z>-2.415684</z>
+</Point>
+<Point>
+<x>0.945908</x><y>0.633809</y><z>-1.950665</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>2.054903</y><z>-1.492975</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>0.784903</y><z>-2.415684</z>
+</Point>
+<Point>
+<x>-0.945909</x><y>1.659334</y><z>-1.205577</z>
+</Point>
+<Point>
+<x>-0.945909</x><y>0.633809</y><z>-1.950665</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-0.784903</y><z>-2.415684</z>
+</Point>
+<Point>
+<x>-0.945909</x><y>-0.633810</y><z>-1.950665</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-2.054903</y><z>-1.492974</z>
+</Point>
+<Point>
+<x>-0.945909</x><y>-1.659334</y><z>-1.205577</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-2.540000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>-0.945909</x><y>-2.051050</y><z>0.000000</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-2.054903</y><z>1.492974</z>
+</Point>
+<Point>
+<x>-0.945909</x><y>-1.659334</y><z>1.205577</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>-0.784903</y><z>2.415684</z>
+</Point>
+<Point>
+<x>-0.945909</x><y>-0.633809</y><z>1.950664</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>0.784903</y><z>2.415684</z>
+</Point>
+<Point>
+<x>-0.945909</x><y>0.633809</y><z>1.950664</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>2.054903</y><z>1.492974</z>
+</Point>
+<Point>
+<x>-0.945909</x><y>1.659335</y><z>1.205577</z>
+</Point>
+<Point>
+<x>-0.698714</x><y>2.540000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>-0.945909</x><y>2.051050</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.679140</x><y>1.216845</y><z>-0.884090</z>
+</Point>
+<Point>
+<x>0.679140</x><y>1.504103</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.679140</x><y>1.216846</y><z>0.884090</z>
+</Point>
+<Point>
+<x>0.679140</x><y>0.464793</y><z>1.430488</z>
+</Point>
+<Point>
+<x>0.679140</x><y>-0.464794</y><z>1.430488</z>
+</Point>
+<Point>
+<x>0.679140</x><y>-1.216845</y><z>0.884091</z>
+</Point>
+<Point>
+<x>0.679140</x><y>-1.504104</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.679140</x><y>-1.216845</y><z>-0.884089</z>
+</Point>
+<Point>
+<x>0.679140</x><y>-0.464794</y><z>-1.430488</z>
+</Point>
+<Point>
+<x>0.679140</x><y>0.464793</y><z>-1.430488</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>1.216845</y><z>-0.884090</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>0.464793</y><z>-1.430488</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>-0.464794</y><z>-1.430488</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>-1.216845</y><z>-0.884089</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>-1.504103</y><z>0.000000</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>-1.216845</y><z>0.884091</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>-0.464793</y><z>1.430488</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>0.464793</y><z>1.430488</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>1.216846</y><z>0.884090</z>
+</Point>
+<Point>
+<x>-0.679141</x><y>1.504104</y><z>0.000000</z>
+</Point>
+</Point_List>
+</GDMeshAttribute>
+<GDMeshAttribute>
+<Normal_List>
+<Normal>
+<x>0.533868</x><y>0.702980</y><z>-0.469898</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.292524</y><z>-0.793357</z>
+</Normal>
+<Normal>
+<x>-0.533868</x><y>0.664133</y><z>-0.523367</z>
+</Normal>
+<Normal>
+<x>-0.533868</x><y>0.229667</y><z>-0.813780</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.229667</y><z>-0.813780</z>
+</Normal>
+<Normal>
+<x>-0.533868</x><y>-0.292524</y><z>-0.793357</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.229667</y><z>-0.813780</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.664133</y><z>-0.523367</z>
+</Normal>
+<Normal>
+<x>-0.533868</x><y>-0.292524</y><z>-0.793357</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>-0.702980</y><z>-0.469898</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.844922</y><z>-0.033046</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>-0.844922</y><z>0.033046</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.844922</y><z>-0.033046</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.702980</y><z>0.469898</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>-0.844922</y><z>0.033046</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>-0.664133</y><z>0.523367</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.292524</y><z>0.793357</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>-0.229667</y><z>0.813781</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.292524</y><z>0.793357</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.229667</y><z>0.813780</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>-0.229667</y><z>0.813781</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>0.292524</y><z>0.793357</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.664132</y><z>0.523367</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>0.702980</y><z>0.469898</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.664132</y><z>0.523367</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.844922</y><z>0.033046</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>0.702980</y><z>0.469898</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>0.844922</y><z>-0.033046</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.702980</y><z>-0.469898</z>
+</Normal>
+<Normal>
+<x>-0.533868</x><y>0.664133</y><z>-0.523367</z>
+</Normal>
+<Normal>
+<x>1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>1.000000</x><y>-0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>1.000000</x><y>-0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>1.000000</x><y>-0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>1.000000</x><y>-0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>-1.000000</x><y>-0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>-1.000000</x><y>-0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>-1.000000</x><y>-0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>-1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>-1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>-1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>-1.000000</x><y>-0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>-1.000000</x><y>-0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>-1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>-1.000000</x><y>0.000000</y><z>0.000000</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.702980</y><z>-0.469898</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.844922</y><z>0.033046</z>
+</Normal>
+<Normal>
+<x>0.998532</x><y>0.037225</y><z>0.039341</z>
+</Normal>
+<Normal>
+<x>0.998532</x><y>0.006992</y><z>0.053708</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.664132</y><z>0.523367</z>
+</Normal>
+<Normal>
+<x>0.998532</x><y>-0.025912</y><z>0.047560</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.229667</y><z>0.813780</z>
+</Normal>
+<Normal>
+<x>0.998532</x><y>-0.048919</y><z>0.023246</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.292524</y><z>0.793357</z>
+</Normal>
+<Normal>
+<x>0.998532</x><y>-0.053240</y><z>-0.009947</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.702980</y><z>0.469898</z>
+</Normal>
+<Normal>
+<x>0.998532</x><y>-0.037225</y><z>-0.039341</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.844922</y><z>-0.033046</z>
+</Normal>
+<Normal>
+<x>0.998532</x><y>-0.006992</y><z>-0.053708</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.664133</y><z>-0.523367</z>
+</Normal>
+<Normal>
+<x>0.998532</x><y>0.025912</y><z>-0.047560</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>-0.229667</y><z>-0.813780</z>
+</Normal>
+<Normal>
+<x>0.998532</x><y>0.048919</y><z>-0.023246</z>
+</Normal>
+<Normal>
+<x>0.533868</x><y>0.292524</y><z>-0.793357</z>
+</Normal>
+<Normal>
+<x>0.998532</x><y>0.053240</y><z>0.009947</z>
+</Normal>
+<Normal>
+<x>-0.533868</x><y>0.664133</y><z>-0.523367</z>
+</Normal>
+<Normal>
+<x>-0.533868</x><y>0.229667</y><z>-0.813780</z>
+</Normal>
+<Normal>
+<x>-0.998532</x><y>-0.025912</y><z>-0.047560</z>
+</Normal>
+<Normal>
+<x>-0.998532</x><y>-0.048919</y><z>-0.023247</z>
+</Normal>
+<Normal>
+<x>-0.533868</x><y>-0.292524</y><z>-0.793357</z>
+</Normal>
+<Normal>
+<x>-0.998532</x><y>-0.053240</y><z>0.009947</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>-0.702980</y><z>-0.469898</z>
+</Normal>
+<Normal>
+<x>-0.998532</x><y>-0.037226</y><z>0.039341</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>-0.844922</y><z>0.033046</z>
+</Normal>
+<Normal>
+<x>-0.998532</x><y>-0.006992</y><z>0.053708</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>-0.664133</y><z>0.523367</z>
+</Normal>
+<Normal>
+<x>-0.998532</x><y>0.025912</y><z>0.047560</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>-0.229667</y><z>0.813781</z>
+</Normal>
+<Normal>
+<x>-0.998532</x><y>0.048919</y><z>0.023246</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>0.292524</y><z>0.793357</z>
+</Normal>
+<Normal>
+<x>-0.998532</x><y>0.053240</y><z>-0.009947</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>0.702980</y><z>0.469898</z>
+</Normal>
+<Normal>
+<x>-0.998532</x><y>0.037225</y><z>-0.039341</z>
+</Normal>
+<Normal>
+<x>-0.533867</x><y>0.844922</y><z>-0.033046</z>
+</Normal>
+<Normal>
+<x>-0.998532</x><y>0.006992</y><z>-0.053708</z>
+</Normal>
+<Normal>
+<x>0.897780</x><y>-0.382131</y><z>0.219013</z>
+</Normal>
+<Normal>
+<x>0.897780</x><y>-0.437883</y><z>-0.047426</z>
+</Normal>
+<Normal>
+<x>0.897780</x><y>-0.326379</y><z>-0.295750</z>
+</Normal>
+<Normal>
+<x>0.897780</x><y>-0.090209</y><z>-0.431107</z>
+</Normal>
+<Normal>
+<x>0.897780</x><y>0.180418</y><z>-0.401797</z>
+</Normal>
+<Normal>
+<x>0.897780</x><y>0.382131</y><z>-0.219013</z>
+</Normal>
+<Normal>
+<x>0.897780</x><y>0.437883</y><z>0.047426</z>
+</Normal>
+<Normal>
+<x>0.897780</x><y>0.326379</y><z>0.295749</z>
+</Normal>
+<Normal>
+<x>0.897780</x><y>0.090209</y><z>0.431107</z>
+</Normal>
+<Normal>
+<x>0.897780</x><y>-0.180418</y><z>0.401796</z>
+</Normal>
+<Normal>
+<x>-0.897780</x><y>-0.326379</y><z>0.295749</z>
+</Normal>
+<Normal>
+<x>-0.897780</x><y>-0.090209</y><z>0.431107</z>
+</Normal>
+<Normal>
+<x>-0.897780</x><y>0.180418</y><z>0.401796</z>
+</Normal>
+<Normal>
+<x>-0.897780</x><y>0.382131</y><z>0.219013</z>
+</Normal>
+<Normal>
+<x>-0.897780</x><y>0.437883</y><z>-0.047426</z>
+</Normal>
+<Normal>
+<x>-0.897780</x><y>0.326379</y><z>-0.295750</z>
+</Normal>
+<Normal>
+<x>-0.897780</x><y>0.090209</y><z>-0.431107</z>
+</Normal>
+<Normal>
+<x>-0.897780</x><y>-0.180418</y><z>-0.401797</z>
+</Normal>
+<Normal>
+<x>-0.897780</x><y>-0.382131</y><z>-0.219013</z>
+</Normal>
+<Normal>
+<x>-0.897780</x><y>-0.437883</y><z>0.047426</z>
+</Normal>
+</Normal_List>
+</GDMeshAttribute>
+<GDMeshAttribute>
+<Tangent_List>
+<Tangent>
+<x>0.163313</x><y>-0.630979</y><z>-0.758416</z>
+</Tangent>
+<Tangent>
+<x>-0.029941</x><y>-0.931125</y><z>-0.363469</z>
+</Tangent>
+<Tangent>
+<x>-0.125979</x><y>-0.674518</y><z>-0.727430</z>
+</Tangent>
+<Tangent>
+<x>-0.029941</x><y>-0.966938</y><z>-0.253249</z>
+</Tangent>
+<Tangent>
+<x>-0.125979</x><y>-0.973269</y><z>0.192032</z>
+</Tangent>
+<Tangent>
+<x>0.163313</x><y>-0.956258</y><z>0.242692</z>
+</Tangent>
+<Tangent>
+<x>0.163313</x><y>-0.916280</y><z>0.365733</z>
+</Tangent>
+<Tangent>
+<x>-0.029941</x><y>-0.633413</y><z>0.773235</z>
+</Tangent>
+<Tangent>
+<x>-0.125979</x><y>-0.900265</y><z>0.416717</z>
+</Tangent>
+<Tangent>
+<x>-0.029941</x><y>-0.539654</y><z>0.841354</z>
+</Tangent>
+<Tangent>
+<x>-0.125979</x><y>-0.118124</y><z>0.984975</z>
+</Tangent>
+<Tangent>
+<x>0.163312</x><y>-0.064687</y><z>0.984452</z>
+</Tangent>
+<Tangent>
+<x>0.163313</x><y>0.064687</y><z>0.984451</z>
+</Tangent>
+<Tangent>
+<x>-0.029941</x><y>0.539654</y><z>0.841354</z>
+</Tangent>
+<Tangent>
+<x>-0.125979</x><y>0.118124</y><z>0.984975</z>
+</Tangent>
+<Tangent>
+<x>-0.029941</x><y>0.633413</y><z>0.773235</z>
+</Tangent>
+<Tangent>
+<x>-0.125979</x><y>0.900265</y><z>0.416717</z>
+</Tangent>
+<Tangent>
+<x>0.163313</x><y>0.916280</y><z>0.365733</z>
+</Tangent>
+<Tangent>
+<x>0.163313</x><y>0.956258</y><z>0.242692</z>
+</Tangent>
+<Tangent>
+<x>-0.029941</x><y>0.966938</y><z>-0.253249</z>
+</Tangent>
+<Tangent>
+<x>-0.125979</x><y>0.973269</y><z>0.192032</z>
+</Tangent>
+<Tangent>
+<x>-0.029941</x><y>0.931125</y><z>-0.363469</z>
+</Tangent>
+<Tangent>
+<x>-0.125979</x><y>0.674518</y><z>-0.727430</z>
+</Tangent>
+<Tangent>
+<x>0.163313</x><y>0.630979</y><z>-0.758416</z>
+</Tangent>
+<Tangent>
+<x>0.163313</x><y>0.526313</y><z>-0.834460</z>
+</Tangent>
+<Tangent>
+<x>-0.029941</x><y>0.057946</y><z>-0.997871</z>
+</Tangent>
+<Tangent>
+<x>-0.125979</x><y>0.483390</y><z>-0.866293</z>
+</Tangent>
+<Tangent>
+<x>-0.029941</x><y>-0.057946</y><z>-0.997871</z>
+</Tangent>
+<Tangent>
+<x>-0.125979</x><y>-0.483389</y><z>-0.866293</z>
+</Tangent>
+<Tangent>
+<x>0.163313</x><y>-0.526313</y><z>-0.834460</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000004</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000001</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000001</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>0.000000</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>-0.000000</x><y>-0.000000</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>-0.000000</x><y>0.000000</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>-0.000000</x><y>0.000000</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>0.000000</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>-0.000000</x><y>-0.000001</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000003</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000004</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000000</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000000</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>0.000002</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>0.000000</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000000</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000001</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000002</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>-0.000000</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>0.000000</x><y>0.000003</y><z>-1.000000</z>
+</Tangent>
+<Tangent>
+<x>-0.483315</x><y>-0.202297</y><z>-0.851753</z>
+</Tangent>
+<Tangent>
+<x>-0.021814</x><y>0.052830</y><z>-0.998365</z>
+</Tangent>
+<Tangent>
+<x>0.036710</x><y>0.068903</y><z>-0.996948</z>
+</Tangent>
+<Tangent>
+<x>0.053552</x><y>0.020830</y><z>-0.998348</z>
+</Tangent>
+<Tangent>
+<x>0.477616</x><y>0.273910</y><z>-0.834779</z>
+</Tangent>
+<Tangent>
+<x>0.045502</x><y>-0.074959</y><z>-0.996148</z>
+</Tangent>
+<Tangent>
+<x>0.809838</x><y>0.137929</y><z>-0.570208</z>
+</Tangent>
+<Tangent>
+<x>0.020044</x><y>-0.064968</y><z>-0.997686</z>
+</Tangent>
+<Tangent>
+<x>0.791480</x><y>-0.157303</y><z>-0.590605</z>
+</Tangent>
+<Tangent>
+<x>-0.009126</x><y>0.015652</y><z>-0.999836</z>
+</Tangent>
+<Tangent>
+<x>0.483316</x><y>-0.202296</y><z>-0.851752</z>
+</Tangent>
+<Tangent>
+<x>-0.036710</x><y>0.068903</y><z>-0.996948</z>
+</Tangent>
+<Tangent>
+<x>0.021814</x><y>0.052831</y><z>-0.998365</z>
+</Tangent>
+<Tangent>
+<x>-0.053552</x><y>0.020830</y><z>-0.998348</z>
+</Tangent>
+<Tangent>
+<x>-0.477617</x><y>0.273909</y><z>-0.834779</z>
+</Tangent>
+<Tangent>
+<x>-0.045502</x><y>-0.074959</y><z>-0.996148</z>
+</Tangent>
+<Tangent>
+<x>-0.809839</x><y>0.137928</y><z>-0.570208</z>
+</Tangent>
+<Tangent>
+<x>-0.020044</x><y>-0.064971</y><z>-0.997686</z>
+</Tangent>
+<Tangent>
+<x>-0.791479</x><y>-0.157306</y><z>-0.590606</z>
+</Tangent>
+<Tangent>
+<x>0.009126</x><y>0.015647</y><z>-0.999836</z>
+</Tangent>
+<Tangent>
+<x>0.477616</x><y>-0.273910</y><z>-0.834779</z>
+</Tangent>
+<Tangent>
+<x>0.809838</x><y>-0.137932</y><z>-0.570208</z>
+</Tangent>
+<Tangent>
+<x>0.045502</x><y>0.074958</y><z>-0.996148</z>
+</Tangent>
+<Tangent>
+<x>0.020044</x><y>0.064968</y><z>-0.997686</z>
+</Tangent>
+<Tangent>
+<x>0.791481</x><y>0.157302</y><z>-0.590605</z>
+</Tangent>
+<Tangent>
+<x>-0.009125</x><y>-0.015651</y><z>-0.999836</z>
+</Tangent>
+<Tangent>
+<x>0.483316</x><y>0.202296</y><z>-0.851752</z>
+</Tangent>
+<Tangent>
+<x>-0.036710</x><y>-0.068903</y><z>-0.996948</z>
+</Tangent>
+<Tangent>
+<x>0.021814</x><y>-0.052831</y><z>-0.998365</z>
+</Tangent>
+<Tangent>
+<x>-0.053552</x><y>-0.020830</y><z>-0.998348</z>
+</Tangent>
+<Tangent>
+<x>-0.477617</x><y>-0.273909</y><z>-0.834779</z>
+</Tangent>
+<Tangent>
+<x>-0.045502</x><y>0.074959</y><z>-0.996148</z>
+</Tangent>
+<Tangent>
+<x>-0.809839</x><y>-0.137929</y><z>-0.570208</z>
+</Tangent>
+<Tangent>
+<x>-0.020044</x><y>0.064970</y><z>-0.997686</z>
+</Tangent>
+<Tangent>
+<x>-0.791481</x><y>0.157303</y><z>-0.590605</z>
+</Tangent>
+<Tangent>
+<x>0.009126</x><y>-0.015647</y><z>-0.999836</z>
+</Tangent>
+<Tangent>
+<x>-0.483315</x><y>0.202297</y><z>-0.851753</z>
+</Tangent>
+<Tangent>
+<x>0.036710</x><y>-0.068902</y><z>-0.996948</z>
+</Tangent>
+<Tangent>
+<x>-0.021814</x><y>-0.052830</y><z>-0.998365</z>
+</Tangent>
+<Tangent>
+<x>0.053552</x><y>-0.020830</y><z>-0.998348</z>
+</Tangent>
+<Tangent>
+<x>0.296214</x><y>0.155847</y><z>-0.942321</z>
+</Tangent>
+<Tangent>
+<x>-0.064751</x><y>-0.024711</y><z>-0.997595</z>
+</Tangent>
+<Tangent>
+<x>-0.351674</x><y>-0.126922</y><z>-0.927478</z>
+</Tangent>
+<Tangent>
+<x>-0.434588</x><y>-0.022344</y><z>-0.900352</z>
+</Tangent>
+<Tangent>
+<x>-0.427029</x><y>0.133116</y><z>-0.894386</z>
+</Tangent>
+<Tangent>
+<x>-0.296214</x><y>0.155846</y><z>-0.942321</z>
+</Tangent>
+<Tangent>
+<x>0.064751</x><y>-0.024711</y><z>-0.997595</z>
+</Tangent>
+<Tangent>
+<x>0.351674</x><y>-0.126924</y><z>-0.927478</z>
+</Tangent>
+<Tangent>
+<x>0.434588</x><y>-0.022350</y><z>-0.900352</z>
+</Tangent>
+<Tangent>
+<x>0.427028</x><y>0.133114</y><z>-0.894387</z>
+</Tangent>
+<Tangent>
+<x>-0.351674</x><y>0.126924</y><z>-0.927478</z>
+</Tangent>
+<Tangent>
+<x>-0.434587</x><y>0.022346</y><z>-0.900352</z>
+</Tangent>
+<Tangent>
+<x>-0.427028</x><y>-0.133115</y><z>-0.894386</z>
+</Tangent>
+<Tangent>
+<x>-0.296213</x><y>-0.155846</y><z>-0.942322</z>
+</Tangent>
+<Tangent>
+<x>0.064751</x><y>0.024711</y><z>-0.997595</z>
+</Tangent>
+<Tangent>
+<x>0.351675</x><y>0.126924</y><z>-0.927478</z>
+</Tangent>
+<Tangent>
+<x>0.434588</x><y>0.022351</y><z>-0.900352</z>
+</Tangent>
+<Tangent>
+<x>0.427028</x><y>-0.133112</y><z>-0.894387</z>
+</Tangent>
+<Tangent>
+<x>0.296214</x><y>-0.155847</y><z>-0.942321</z>
+</Tangent>
+<Tangent>
+<x>-0.064751</x><y>0.024711</y><z>-0.997595</z>
+</Tangent>
+</Tangent_List>
+</GDMeshAttribute>
+<GDMeshAttribute>
+<Bitangent_List>
+<Bitangent>
+<x>-0.829647</x><y>0.328154</y><z>-0.451665</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845038</x><y>0.217798</y><z>-0.488339</z>
+</Bitangent>
+<Bitangent>
+<x>-0.836131</x><y>-0.322418</y><z>0.443770</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845038</x><y>-0.110836</y><z>0.523093</z>
+</Bitangent>
+<Bitangent>
+<x>-0.836131</x><y>0.000000</y><z>-0.548530</z>
+</Bitangent>
+<Bitangent>
+<x>-0.829647</x><y>0.000000</y><z>0.558288</z>
+</Bitangent>
+<Bitangent>
+<x>-0.829647</x><y>-0.328154</y><z>-0.451665</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845038</x><y>-0.397135</y><z>-0.358043</z>
+</Bitangent>
+<Bitangent>
+<x>-0.836131</x><y>0.322418</y><z>0.443770</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845038</x><y>0.463241</y><z>0.267056</z>
+</Bitangent>
+<Bitangent>
+<x>-0.836131</x><y>-0.521683</y><z>-0.169505</z>
+</Bitangent>
+<Bitangent>
+<x>-0.829647</x><y>0.530963</y><z>0.172520</z>
+</Bitangent>
+<Bitangent>
+<x>-0.829647</x><y>-0.530964</y><z>0.172521</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845038</x><y>-0.463241</y><z>0.267056</z>
+</Bitangent>
+<Bitangent>
+<x>-0.836131</x><y>0.521683</y><z>-0.169505</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845038</x><y>0.397135</y><z>-0.358043</z>
+</Bitangent>
+<Bitangent>
+<x>-0.836131</x><y>-0.322418</y><z>0.443770</z>
+</Bitangent>
+<Bitangent>
+<x>-0.829647</x><y>0.328153</y><z>-0.451664</z>
+</Bitangent>
+<Bitangent>
+<x>-0.829647</x><y>0.000000</y><z>0.558288</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845038</x><y>0.110836</y><z>0.523093</z>
+</Bitangent>
+<Bitangent>
+<x>-0.836131</x><y>0.000000</y><z>-0.548530</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845038</x><y>-0.217798</y><z>-0.488339</z>
+</Bitangent>
+<Bitangent>
+<x>-0.836131</x><y>0.322418</y><z>0.443770</z>
+</Bitangent>
+<Bitangent>
+<x>-0.829647</x><y>-0.328153</y><z>-0.451664</z>
+</Bitangent>
+<Bitangent>
+<x>-0.829647</x><y>0.530964</y><z>0.172521</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845038</x><y>0.531741</y><z>0.056233</z>
+</Bitangent>
+<Bitangent>
+<x>-0.836131</x><y>-0.521683</y><z>-0.169505</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845038</x><y>-0.531741</y><z>0.056233</z>
+</Bitangent>
+<Bitangent>
+<x>-0.836131</x><y>0.521683</y><z>-0.169505</z>
+</Bitangent>
+<Bitangent>
+<x>-0.829647</x><y>-0.530963</y><z>0.172521</z>
+</Bitangent>
+<Bitangent>
+<x>-0.000000</x><y>1.000000</y><z>-0.000004</z>
+</Bitangent>
+<Bitangent>
+<x>-0.000000</x><y>1.000000</y><z>-0.000001</z>
+</Bitangent>
+<Bitangent>
+<x>-0.000000</x><y>1.000000</y><z>-0.000001</z>
+</Bitangent>
+<Bitangent>
+<x>0.000000</x><y>1.000000</y><z>0.000000</z>
+</Bitangent>
+<Bitangent>
+<x>0.000000</x><y>1.000000</y><z>-0.000000</z>
+</Bitangent>
+<Bitangent>
+<x>-0.000000</x><y>1.000000</y><z>0.000000</z>
+</Bitangent>
+<Bitangent>
+<x>-0.000000</x><y>1.000000</y><z>0.000000</z>
+</Bitangent>
+<Bitangent>
+<x>0.000000</x><y>1.000000</y><z>0.000000</z>
+</Bitangent>
+<Bitangent>
+<x>0.000000</x><y>1.000000</y><z>-0.000001</z>
+</Bitangent>
+<Bitangent>
+<x>0.000000</x><y>1.000000</y><z>-0.000003</z>
+</Bitangent>
+<Bitangent>
+<x>-0.000000</x><y>1.000000</y><z>-0.000004</z>
+</Bitangent>
+<Bitangent>
+<x>-0.000000</x><y>1.000000</y><z>-0.000000</z>
+</Bitangent>
+<Bitangent>
+<x>-0.000000</x><y>1.000000</y><z>-0.000000</z>
+</Bitangent>
+<Bitangent>
+<x>0.000000</x><y>1.000000</y><z>0.000002</z>
+</Bitangent>
+<Bitangent>
+<x>0.000000</x><y>1.000000</y><z>0.000000</z>
+</Bitangent>
+<Bitangent>
+<x>0.000000</x><y>1.000000</y><z>-0.000000</z>
+</Bitangent>
+<Bitangent>
+<x>-0.000000</x><y>1.000000</y><z>-0.000001</z>
+</Bitangent>
+<Bitangent>
+<x>-0.000000</x><y>1.000000</y><z>-0.000002</z>
+</Bitangent>
+<Bitangent>
+<x>0.000000</x><y>1.000000</y><z>-0.000000</z>
+</Bitangent>
+<Bitangent>
+<x>0.000000</x><y>1.000000</y><z>0.000003</z>
+</Bitangent>
+<Bitangent>
+<x>-0.693824</x><y>0.681832</y><z>0.231761</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845287</x><y>0.532274</y><z>0.046635</z>
+</Bitangent>
+<Bitangent>
+<x>-0.039822</x><y>0.996929</y><z>0.067435</z>
+</Bitangent>
+<Bitangent>
+<x>-0.008099</x><y>0.999759</y><z>0.020425</z>
+</Bitangent>
+<Bitangent>
+<x>-0.697759</x><y>0.695630</y><z>-0.170969</z>
+</Bitangent>
+<Bitangent>
+<x>0.029378</x><y>0.996850</y><z>-0.073670</z>
+</Bitangent>
+<Bitangent>
+<x>-0.243202</x><y>0.963446</y><z>-0.112357</z>
+</Bitangent>
+<Bitangent>
+<x>0.050316</x><y>0.996688</y><z>-0.063892</z>
+</Bitangent>
+<Bitangent>
+<x>0.297564</x><y>0.943232</y><z>0.147548</z>
+</Bitangent>
+<Bitangent>
+<x>0.053387</x><y>0.998459</y><z>0.015143</z>
+</Bitangent>
+<Bitangent>
+<x>0.693824</x><y>0.681832</y><z>0.231762</z>
+</Bitangent>
+<Bitangent>
+<x>0.039822</x><y>0.996929</y><z>0.067435</z>
+</Bitangent>
+<Bitangent>
+<x>0.845287</x><y>0.532274</y><z>0.046636</z>
+</Bitangent>
+<Bitangent>
+<x>0.008099</x><y>0.999759</y><z>0.020425</z>
+</Bitangent>
+<Bitangent>
+<x>0.697759</x><y>0.695631</y><z>-0.170970</z>
+</Bitangent>
+<Bitangent>
+<x>-0.029377</x><y>0.996850</y><z>-0.073670</z>
+</Bitangent>
+<Bitangent>
+<x>0.243201</x><y>0.963446</y><z>-0.112357</z>
+</Bitangent>
+<Bitangent>
+<x>-0.050316</x><y>0.996687</y><z>-0.063895</z>
+</Bitangent>
+<Bitangent>
+<x>-0.297566</x><y>0.943231</y><z>0.147546</z>
+</Bitangent>
+<Bitangent>
+<x>-0.053387</x><y>0.998459</y><z>0.015139</z>
+</Bitangent>
+<Bitangent>
+<x>0.697759</x><y>0.695630</y><z>0.170969</z>
+</Bitangent>
+<Bitangent>
+<x>0.243204</x><y>0.963446</y><z>0.112355</z>
+</Bitangent>
+<Bitangent>
+<x>-0.029377</x><y>0.996850</y><z>0.073669</z>
+</Bitangent>
+<Bitangent>
+<x>-0.050316</x><y>0.996688</y><z>0.063892</z>
+</Bitangent>
+<Bitangent>
+<x>-0.297562</x><y>0.943232</y><z>-0.147549</z>
+</Bitangent>
+<Bitangent>
+<x>-0.053387</x><y>0.998459</y><z>-0.015142</z>
+</Bitangent>
+<Bitangent>
+<x>-0.693824</x><y>0.681832</y><z>-0.231762</z>
+</Bitangent>
+<Bitangent>
+<x>-0.039823</x><y>0.996929</y><z>-0.067435</z>
+</Bitangent>
+<Bitangent>
+<x>-0.845287</x><y>0.532274</y><z>-0.046636</z>
+</Bitangent>
+<Bitangent>
+<x>-0.008099</x><y>0.999759</y><z>-0.020425</z>
+</Bitangent>
+<Bitangent>
+<x>-0.697759</x><y>0.695631</y><z>0.170970</z>
+</Bitangent>
+<Bitangent>
+<x>0.029377</x><y>0.996850</y><z>0.073670</z>
+</Bitangent>
+<Bitangent>
+<x>-0.243201</x><y>0.963446</y><z>0.112358</z>
+</Bitangent>
+<Bitangent>
+<x>0.050316</x><y>0.996687</y><z>0.063895</z>
+</Bitangent>
+<Bitangent>
+<x>0.297563</x><y>0.943231</y><z>-0.147548</z>
+</Bitangent>
+<Bitangent>
+<x>0.053387</x><y>0.998459</y><z>-0.015138</z>
+</Bitangent>
+<Bitangent>
+<x>0.693824</x><y>0.681832</y><z>-0.231762</z>
+</Bitangent>
+<Bitangent>
+<x>0.039822</x><y>0.996929</y><z>-0.067434</z>
+</Bitangent>
+<Bitangent>
+<x>0.845287</x><y>0.532274</y><z>-0.046636</z>
+</Bitangent>
+<Bitangent>
+<x>0.008099</x><y>0.999759</y><z>-0.020425</z>
+</Bitangent>
+<Bitangent>
+<x>0.325958</x><y>0.910872</y><z>0.253109</z>
+</Bitangent>
+<Bitangent>
+<x>0.435659</x><y>0.898692</y><z>-0.050538</z>
+</Bitangent>
+<Bitangent>
+<x>0.265172</x><y>0.936679</y><z>-0.228728</z>
+</Bitangent>
+<Bitangent>
+<x>0.071587</x><y>0.995672</y><z>-0.059264</z>
+</Bitangent>
+<Bitangent>
+<x>-0.107878</x><y>0.974541</y><z>0.196552</z>
+</Bitangent>
+<Bitangent>
+<x>-0.325958</x><y>0.910872</y><z>0.253108</z>
+</Bitangent>
+<Bitangent>
+<x>-0.435658</x><y>0.898692</y><z>-0.050538</z>
+</Bitangent>
+<Bitangent>
+<x>-0.265172</x><y>0.936679</y><z>-0.228729</z>
+</Bitangent>
+<Bitangent>
+<x>-0.071585</x><y>0.995672</y><z>-0.059269</z>
+</Bitangent>
+<Bitangent>
+<x>0.107878</x><y>0.974541</y><z>0.196551</z>
+</Bitangent>
+<Bitangent>
+<x>-0.265171</x><y>0.936679</y><z>0.228729</z>
+</Bitangent>
+<Bitangent>
+<x>-0.071586</x><y>0.995672</y><z>0.059266</z>
+</Bitangent>
+<Bitangent>
+<x>0.107878</x><y>0.974541</y><z>-0.196552</z>
+</Bitangent>
+<Bitangent>
+<x>0.325958</x><y>0.910872</y><z>-0.253108</z>
+</Bitangent>
+<Bitangent>
+<x>0.435658</x><y>0.898692</y><z>0.050538</z>
+</Bitangent>
+<Bitangent>
+<x>0.265172</x><y>0.936679</y><z>0.228730</z>
+</Bitangent>
+<Bitangent>
+<x>0.071584</x><y>0.995672</y><z>0.059270</z>
+</Bitangent>
+<Bitangent>
+<x>-0.107880</x><y>0.974541</y><z>-0.196549</z>
+</Bitangent>
+<Bitangent>
+<x>-0.325958</x><y>0.910872</y><z>-0.253109</z>
+</Bitangent>
+<Bitangent>
+<x>-0.435658</x><y>0.898692</y><z>0.050538</z>
+</Bitangent>
+</Bitangent_List>
+</GDMeshAttribute>
+<GDMeshAttribute>
+<TexCoord_List name="map1">
+<TexCoord>
+<s>0.290581</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.336691</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.290581</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.336691</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.381857</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.381857</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.290581</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.336691</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.290581</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.336691</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.381857</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.381857</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.290581</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.336691</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.290581</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.336691</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.381857</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.381857</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.290581</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.336691</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.290581</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.336691</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.381856</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.381856</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.290581</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.336691</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.290581</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.336691</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.381856</s><t>0.717312</t>
+</TexCoord>
+<TexCoord>
+<s>0.381856</s><t>0.789195</t>
+</TexCoord>
+<TexCoord>
+<s>0.171021</s><t>0.871888</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.884422</t>
+</TexCoord>
+<TexCoord>
+<s>0.196088</s><t>0.839075</t>
+</TexCoord>
+<TexCoord>
+<s>0.089903</s><t>0.871888</t>
+</TexCoord>
+<TexCoord>
+<s>0.064836</s><t>0.839075</t>
+</TexCoord>
+<TexCoord>
+<s>0.064836</s><t>0.798515</t>
+</TexCoord>
+<TexCoord>
+<s>0.089903</s><t>0.765702</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.753169</t>
+</TexCoord>
+<TexCoord>
+<s>0.171021</s><t>0.765702</t>
+</TexCoord>
+<TexCoord>
+<s>0.196088</s><t>0.798515</t>
+</TexCoord>
+<TexCoord>
+<s>0.171021</s><t>0.871888</t>
+</TexCoord>
+<TexCoord>
+<s>0.196088</s><t>0.839075</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.884422</t>
+</TexCoord>
+<TexCoord>
+<s>0.196088</s><t>0.798515</t>
+</TexCoord>
+<TexCoord>
+<s>0.171021</s><t>0.765702</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.753169</t>
+</TexCoord>
+<TexCoord>
+<s>0.089903</s><t>0.765702</t>
+</TexCoord>
+<TexCoord>
+<s>0.064836</s><t>0.798515</t>
+</TexCoord>
+<TexCoord>
+<s>0.064836</s><t>0.839075</t>
+</TexCoord>
+<TexCoord>
+<s>0.089903</s><t>0.871888</t>
+</TexCoord>
+<TexCoord>
+<s>0.204387</s><t>0.915565</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.938409</t>
+</TexCoord>
+<TexCoord>
+<s>0.190157</s><t>0.896936</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.915383</t>
+</TexCoord>
+<TexCoord>
+<s>0.056537</s><t>0.915565</t>
+</TexCoord>
+<TexCoord>
+<s>0.070767</s><t>0.896936</t>
+</TexCoord>
+<TexCoord>
+<s>0.010849</s><t>0.855758</t>
+</TexCoord>
+<TexCoord>
+<s>0.033874</s><t>0.848642</t>
+</TexCoord>
+<TexCoord>
+<s>0.010849</s><t>0.781833</t>
+</TexCoord>
+<TexCoord>
+<s>0.033874</s><t>0.788948</t>
+</TexCoord>
+<TexCoord>
+<s>0.056537</s><t>0.722026</t>
+</TexCoord>
+<TexCoord>
+<s>0.070767</s><t>0.740654</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.699182</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.722207</t>
+</TexCoord>
+<TexCoord>
+<s>0.204387</s><t>0.722026</t>
+</TexCoord>
+<TexCoord>
+<s>0.190157</s><t>0.740654</t>
+</TexCoord>
+<TexCoord>
+<s>0.250075</s><t>0.781833</t>
+</TexCoord>
+<TexCoord>
+<s>0.227050</s><t>0.788948</t>
+</TexCoord>
+<TexCoord>
+<s>0.250075</s><t>0.855758</t>
+</TexCoord>
+<TexCoord>
+<s>0.227050</s><t>0.848642</t>
+</TexCoord>
+<TexCoord>
+<s>0.204387</s><t>0.915565</t>
+</TexCoord>
+<TexCoord>
+<s>0.250075</s><t>0.855758</t>
+</TexCoord>
+<TexCoord>
+<s>0.190157</s><t>0.896936</t>
+</TexCoord>
+<TexCoord>
+<s>0.227050</s><t>0.848642</t>
+</TexCoord>
+<TexCoord>
+<s>0.250075</s><t>0.781833</t>
+</TexCoord>
+<TexCoord>
+<s>0.227050</s><t>0.788948</t>
+</TexCoord>
+<TexCoord>
+<s>0.204387</s><t>0.722026</t>
+</TexCoord>
+<TexCoord>
+<s>0.190157</s><t>0.740654</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.699182</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.722207</t>
+</TexCoord>
+<TexCoord>
+<s>0.056537</s><t>0.722026</t>
+</TexCoord>
+<TexCoord>
+<s>0.070767</s><t>0.740654</t>
+</TexCoord>
+<TexCoord>
+<s>0.010849</s><t>0.781833</t>
+</TexCoord>
+<TexCoord>
+<s>0.033874</s><t>0.788948</t>
+</TexCoord>
+<TexCoord>
+<s>0.010849</s><t>0.855758</t>
+</TexCoord>
+<TexCoord>
+<s>0.033874</s><t>0.848642</t>
+</TexCoord>
+<TexCoord>
+<s>0.056537</s><t>0.915565</t>
+</TexCoord>
+<TexCoord>
+<s>0.070767</s><t>0.896936</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.938409</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.915383</t>
+</TexCoord>
+<TexCoord>
+<s>0.178436</s><t>0.881593</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.896418</t>
+</TexCoord>
+<TexCoord>
+<s>0.082488</s><t>0.881593</t>
+</TexCoord>
+<TexCoord>
+<s>0.052839</s><t>0.842782</t>
+</TexCoord>
+<TexCoord>
+<s>0.052839</s><t>0.794808</t>
+</TexCoord>
+<TexCoord>
+<s>0.082488</s><t>0.755997</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.741172</t>
+</TexCoord>
+<TexCoord>
+<s>0.178436</s><t>0.755997</t>
+</TexCoord>
+<TexCoord>
+<s>0.208085</s><t>0.794808</t>
+</TexCoord>
+<TexCoord>
+<s>0.208085</s><t>0.842782</t>
+</TexCoord>
+<TexCoord>
+<s>0.178436</s><t>0.881593</t>
+</TexCoord>
+<TexCoord>
+<s>0.208085</s><t>0.842782</t>
+</TexCoord>
+<TexCoord>
+<s>0.208085</s><t>0.794808</t>
+</TexCoord>
+<TexCoord>
+<s>0.178436</s><t>0.755997</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.741172</t>
+</TexCoord>
+<TexCoord>
+<s>0.082488</s><t>0.755997</t>
+</TexCoord>
+<TexCoord>
+<s>0.052839</s><t>0.794808</t>
+</TexCoord>
+<TexCoord>
+<s>0.052839</s><t>0.842782</t>
+</TexCoord>
+<TexCoord>
+<s>0.082488</s><t>0.881593</t>
+</TexCoord>
+<TexCoord>
+<s>0.130462</s><t>0.896418</t>
+</TexCoord>
+</TexCoord_List>
+</GDMeshAttribute>
+<GDMeshAttribute>
+<JointIndices_List>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+<JointIndices>
+<JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex><JointIndex>0</JointIndex>
+</JointIndices>
+</JointIndices_List>
+</GDMeshAttribute>
+<GDMeshAttribute>
+<Weights_List>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+<Weights>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+<WeightValue>0.000000</WeightValue>
+</Weights>
+</Weights_List>
+</GDMeshAttribute>
+	</GDMeshAttribute_List>
+</GDMesh>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<GDRenderContext name="LitTexturedShadows">
+<Material></Material>
+<Effect>LitTextured.fxo</Effect>
+<Technique>Basic</Technique>
+<GBufferTechnique>GBuffers</GBufferTechnique>
+<DepthCameraTechnique>DepthCamera</DepthCameraTechnique>
+<VertexFormat>VERTEX_POSNORMTEX</VertexFormat>
+<CastShadows>true</CastShadows>
+<RenderStyle>DEFERRED</RenderStyle>
+</GDRenderContext>
